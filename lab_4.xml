@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+width="800px" height="600px"
+viewBox="0 0 800 600"
+preserveAspectRatio="xMidYMid">
+<rect x="0" y="0" width="800" height="600"
+stroke="black" fill="none" stroke-width="5"/>
+
+
+<defs>
+<g id="figure">
+  <path d="M 320 135.514 L 320 250 L320 135.514
+  L 369.674 146.852 L 320 250 L 369.674 146.852
+  L 409.509 178.619 L 320 250 L 409.509 178.619 
+  L 431.616 224.524 L 320 250 L 431.616 224.524
+  L 431.616 275.476 L 320 250 L 431.616 275.476
+  L 409.509 321.381 L 320 250 L 409.509 321.381 
+  L 369.674 353.148 L 320 250 L 369.674 353.148 
+  L 320 364.486 L 320 250 L 320 364.486 
+  L 270.326 353.148 L 320 250 L 270.326 353.148 
+  L 230.491 321.381 L 320 250 L 230.491 321.381 
+  L 208.384 275.476 L 320 250 L 208.384 275.476 
+  L 208.384 224.524 L 320 250 L 208.384 224.524 
+  L 230.491 178.619 L 320 250 L 230.491 178.619 
+  L 270.326 146.852 L 320 250 L 270.326 146.852 Z"  
+  fill="none"
+  stroke="#000000"
+  >
+  <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="rotate"
+                          from="0 320 250"
+                          to="360 320 250"
+                          dur="5s"
+                          repeatCount="indefinite"/>
+
+  </path>
+</g>
+
+<g id="line">
+<line x1="100" y1="100" x2="400" y2="150" stroke-width="15" stroke="#FF0000"/>
+</g>
+
+<g id="triangle">
+<polygon points="100,200 160,200 130,10"/>
+</g>
+</defs>
+<defs>
+<g id="wiatrak1">
+<use xlink:href = "#figure" transform="translate(90,190) scale(0.62)" />
+<use xlink:href = "#figure" transform="translate(375,242) scale(0.62)" />
+<use xlink:href = "#line" transform="translate(180,247) scale(1)" />
+<use xlink:href = "#triangle"  style="fill:blue;" transform="translate(300,360) scale(1)"/>
+</g>
+<g id="wiatrak2">
+<use xlink:href = "#figure" transform="translate(90,190) scale(0.62)" />
+<use xlink:href = "#figure" transform="translate(375,242) scale(0.62)" />
+<use xlink:href = "#line" transform="translate(180,247) scale(1)" />
+<use xlink:href = "#triangle"  style="fill:purple;" transform="translate(300,360) scale(1)"/>
+</g>
+<g id="wiatrak3">
+<use xlink:href = "#figure" transform="translate(90,190) scale(0.62)" />
+<use xlink:href = "#figure" transform="translate(375,242) scale(0.62)" />
+<use xlink:href = "#line" transform="translate(180,247) scale(1)" />
+<use xlink:href = "#triangle"  style="fill:green;" transform="translate(300,360) scale(1)"/>
+</g>
+</defs>
+
+<use xlink:href = "#wiatrak1"  />
+<use xlink:href = "#wiatrak2" transform="translate(-130,-160) scale(0.7)"/>
+<use xlink:href = "#wiatrak3" transform="translate(380,-120) scale(0.55)"/>
+</svg>
